@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black">
+    <div class="flex mt-28 mr-20">
+        <div class="">
+            <img class="rounded-lg" src="https://images.git-cdn.cc:88/images/cover/15/15398776.jpg" alt="">
+        </div>
+        <div class="flex-col">
+            <div class="mt-12 mr-6">
+                <h1 class="text-white text-2xl">اوپنهایمر</h1>
+            </div>
+            <div class="mr-6 mt-4">
+                <h1 class="text-white text-2xl">Oppenheimer</h1>
+            </div>
+            <div class="border-t px-80 border-white mt-6"></div>
+            <div class="flex mt-4 mr-6 items-center">
+                <i class="text-yellow-400 fa fa-imdb" style="font-size:38px;"></i>
+                <span class="text-white font-bold mr-2">8.8</span>
+                <p class="text-[0.800rem] mr-2 text-gray-400">از 10 از 2,647 رای</p>
+            </div>
+            <div class="flex mt-5 mr-6">
+                <span class="text-gray-400">بازیگران</span>
+                <p class="mr-1 text-gray-400 mt-0.5">:</p>
+                <span dir="ltr" class="text-white mt-0.5 mr-2">Christopher Nolan، Cillian Murphy، David Dastmalchian</span>
+            </div>
+            <div class="flex mt-4 mr-6">
+                <span class="text-gray-400">کارگردان</span>
+                <p class="text-gray-400 mr-1 mt-0.5">:</p>
+                <span class="text-white mt-0.5 mr-2 font-bold">Christopher Nolan</span>
+            </div>
+            <div class="flex mr-6 mt-8">
+                <button onclick="number()" class="number flex bg-green-300 rounded-lg px-3 py-2 items-center">
+                    <span id="amir" class="number ml-2">0</span>
+                    <i  onclick="myFunction(this)" class="text-xl fa fa-thumbs-up"></i>
+                </button>
+                <button onclick="number1()" class="number flex mr-4 bg-red-300 rounded-lg px-3 py-2 items-center">
+                    <span id="amir1" class="number ml-2">0</span>
+                    <i  onclick="myFunction(this)" class="text-xl fa fa-thumbs-down"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="flex mt-14 justify-center">
+        <video class="max-w-4xl" controls>
+            <source src="https://uptvstream2.pishtazmovie.ir/uptv-stream/trailer/Oppenheimer-2023-Trailer.mp4" type="video/mp4">
+          </video>
+    </div>
+    <div class="mt-12">
+        <h1 class="text-white text-xl mr-12 font-bold">پخش آنلاین</h1>
+    </div>
+    <div class="mt-12 justify-center flex">
+        <div class="bg-gray-400 w-full h-14 items-center rounded-r-lg rounded-l-lg max-w-2xl flex">
+            <span class="text-white mr-5">1</span>
+            <p class="mr-4">نسخه 480p HDCAM با <span class="text-green-300 font-bold">دوبله فارسی</span> و <span class="text-red-400 font-bold">زیرنویس فارسی</span></p>
+      <a href="https://hajifirouz13.cdn.asset.aparat.com/aparat-video/a37a172fbd95bdefc78a07a1f603185053711792-480p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjNmZWUxNzE3NjllNGI0NmY0YzE0M2YyOWQxOGRhZTNhIiwiZXhwIjoxNjk0ODIwNDg0LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.Y54BacvUbQAtfkfkEsjcpBPBWOdxBTCJ-RzEtRnnRpU">
+            <button class="border-2 border-blue-400 mr-36  text-sm p-2 text-white font-bold font-sans rounded-lg bg-blue-500">تماشای آنلاین</button>
+        </a>
+        </div>
+    </div>
+    <div class="mt-6 justify-center flex">
+        <div class="bg-gray-400 w-full h-14 items-center rounded-r-lg rounded-l-lg max-w-2xl flex">
+            <span class="text-white mr-5">2</span>
+            <p class="mr-4">نسخه 720p HDCAM با <span class="text-green-300 font-bold">دوبله فارسی</span> و <span class="text-red-400 font-bold">زیرنویس فارسی</span></p>
+          <a href="https://hajifirouz13.cdn.asset.aparat.com/aparat-video/a37a172fbd95bdefc78a07a1f603185053711792-720p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjNmZWUxNzE3NjllNGI0NmY0YzE0M2YyOWQxOGRhZTNhIiwiZXhwIjoxNjk0ODIwNDg0LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.Y54BacvUbQAtfkfkEsjcpBPBWOdxBTCJ-RzEtRnnRpU">
+            <button class="border-2 border-blue-400 mr-36  text-sm p-2 text-white font-bold font-sans rounded-lg bg-blue-500">تماشای آنلاین</button>
+        </a>
+        </div>
+    </div>
+    <div class="mt-6 justify-center flex">
+        <div class="bg-gray-400 w-full h-14 items-center rounded-r-lg rounded-l-lg max-w-2xl flex">
+            <span class="text-white mr-5">3</span>
+            <p class="mr-4">نسخه 1080p HDCAM با <span class="text-green-300 font-bold">دوبله فارسی</span> و <span class="text-red-400 font-bold">زیرنویس فارسی</span></p>
+          <button class="border-2 border-blue-400 mr-36  text-sm p-2 text-white font-bold font-sans rounded-lg bg-blue-500">تماشای آنلاین</button>
+        </div>
+    </div>
+    <div class="mt-6 justify-center flex">
+        <div class="bg-gray-400 w-full h-14 items-center rounded-r-lg rounded-l-lg max-w-2xl flex">
+            <span class="text-white mr-5">4</span>
+              <p class="mr-4">نسخه 480p HDCAM زبان اصلی و <span class="text-red-400 font-bold">زیرنویس فارسی</span> و انگلیسی</p>
+            <button class="border-2 border-blue-400 mr-28  text-sm p-2 text-white font-bold font-sans rounded-lg bg-blue-500">تماشای آنلاین</button>
+        </div>
+    </div>
+    <div class="mt-6 justify-center flex">
+        <div class="bg-gray-400 w-full h-14 items-center rounded-r-lg rounded-l-lg max-w-2xl flex">
+            <span class="text-white mr-5">5</span>
+              <p class="mr-4">نسخه 720p HDCAM زبان اصلی و <span class="text-red-400 font-bold">زیرنویس فارسی</span> و انگلیسی</p>
+            <button class="border-2 border-blue-400 mr-28  text-sm p-2 text-white font-bold font-sans rounded-lg bg-blue-500">تماشای آنلاین</button>
+        </div>
+    </div>
+    <div class="mt-6 justify-center flex">
+        <div class="bg-gray-400 w-full h-14 items-center rounded-r-lg rounded-l-lg max-w-2xl flex">
+            <span class="text-white mr-5">6</span>
+              <p class="mr-4">نسخه 1080p HDCAM زبان اصلی و <span class="text-red-400 font-bold">زیرنویس فارسی</span> و انگلیسی</p>
+            <button class="border-2 border-blue-400 mr-28  text-sm p-2 text-white font-bold font-sans rounded-lg bg-blue-500">تماشای آنلاین</button>
+        </div>
+    </div>
+    <div class="flex mt-20 mr-6 ml-6 mb-16">
+        <div class="bg-white w-12 h-10 rounded-full flex text-black text-xl ml-4 items-center text-center justify-center">A</div>
+        <input class="px-4 rounded-lg w-full h-12 bg-slate-400 placeholder:text-black focus:outline-none" type="text" placeholder="ارسال نظر">
+         <button class="bg-fuchsia-700 px-4 py-2 rounded-lg mr-6"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+            <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
+          </svg></button>
+    </div>
+    <div style="transition: 7s;" onclick="scrool()" class="flex items-center text-center justify-center cursor-pointer text-black w-12 h-12 rounded-full fixed bg-white bottom-2 left-8">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-short" viewBox="0 0 16 16">
+   <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+ </svg>
+    <script>
+        function scrool() {
+            window.scrollTo(0, 0);
+        }
+       function number() {
+            document.getElementById("amir").innerHTML = '1';
+        }
+        function number1() {
+            document.getElementById("amir1").innerHTML = '1';
+        }
+    </script>
+</body>
+</html>
